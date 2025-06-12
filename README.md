@@ -6,14 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nosso Amor 💖</title>
   <style>
-    body {
-  background: #fce4ec url('https://i.imgur.com/INSERT_CODE.png') repeat;
-  /* se for usar imagem local, mude a URL para 'balloons.png' ou como você chamar o arquivo */
-  background-size: cover; /* para preencher a tela */
-  font-family: 'Arial', sans-serif;
-  text-align: center;
-  color: #000;
-}
+  body {
+    background: linear-gradient(to bottom, #ffb6c1, #ffc0cb);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #000; /* <- aqui! */
+  }
+</style>
     h1 {
       margin-top: 20px;
       font-size: 2em;
@@ -43,12 +42,13 @@
   </style>
 </head>
 <body>
-  <audio controls autoplay loop style="margin-top: 20px;">
+  <audio controls autoplay loop style="display: block; margin: 20px auto;">
     <source src="Christina Perri - A Thousand Years [Official Music Video].mp3" type="audio/mpeg">
     Seu navegador não suporta áudio HTML5.
   </audio>
 
   <h1>💘 Feliz Dia dos Namorados 💘</h1>
+  
   <div class="fotos">
     <img src="foto1.jpg" alt="Foto 1" />
     <img src="foto2.jpg" alt="Foto 2" />
