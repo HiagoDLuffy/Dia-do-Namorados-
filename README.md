@@ -8,11 +8,13 @@
   <title>Nosso Amor 💖</title>
   <style>
     body {
-      background: linear-gradient(to bottom, #ffb6c1, #ffc0cb);
-      font-family: 'Arial', sans-serif;
-      text-align: center;
-      color: #fff;
-    }
+  background: #fce4ec url('https://i.imgur.com/INSERT_CODE.png') repeat;
+  /* se for usar imagem local, mude a URL para 'balloons.png' ou como você chamar o arquivo */
+  background-size: cover; /* para preencher a tela */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: #fff;
+}
     h1 {
       margin-top: 20px;
       font-size: 2em;
