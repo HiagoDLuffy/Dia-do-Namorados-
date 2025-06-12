@@ -56,9 +56,8 @@
     <div id="tempo"></div>
   </div>
 
-  <audio controls autoplay loop>
-  <source src="Christina Perri - A Thousand Years [Official Music Video].mp3" type="audio/mpeg">
-  Seu navegador não suporta áudio HTML5.
+<audio autoplay loop hidden>
+  <source src="a-thousand-years.mp3" type="audio/mpeg">
 </audio>
 
   <script>
