@@ -10,7 +10,7 @@
     background: linear-gradient(to bottom, #ffb6c1, #ffc0cb);
     font-family: 'Arial', sans-serif;
     text-align: center;
-    color: #000; /* <- aqui! */
+    color: #000; 
   }
 </style>
     h1 {
