@@ -44,7 +44,7 @@
   </style>
 </head>
   <audio autoplay loop hidden>
-  <source src="a-thousand-years.mp3" type="audio/mpeg">
+  <source src="Christina Perri - A Thousand Years [Official Music Video].mp3" type="audio/mpeg">
 </audio>
 <body>
   <h1>💘 Feliz Dia dos Namorados 💘</h1>
@@ -58,12 +58,6 @@
     <p>Estamos juntos há:</p>
     <div id="tempo"></div>
   </div>
-
-    
-<audio controls autoplay loop>
-  <source src="a-thousand-years.mp3" type="audio/mpeg">
-  Seu navegador não suporta áudio HTML5.
-</audio>
 
   <script>
     const inicio = new Date("2022-04-22T19:00:00");
