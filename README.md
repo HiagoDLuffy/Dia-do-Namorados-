@@ -52,7 +52,7 @@
 </head>
 <body>
   <audio controls autoplay loop style="display: block; margin: 20px auto;">
-    <source src="a-thousand-years.mp3" type="audio/mpeg">
+    <source src="Christina Perri - A Thousand Years.mp3" type="audio/mpeg">
     Seu navegador não suporta áudio HTML5.
   </audio>
 
