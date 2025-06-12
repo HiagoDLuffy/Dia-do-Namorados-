@@ -44,7 +44,6 @@
   </style>
 </head>
 <body>
-  <body>
   <audio controls autoplay loop style="margin-top: 20px;">
     <source src="Christina Perri - A Thousand Years [Official Music Video].mp3" type="audio/mpeg">
     Seu navegador não suporta áudio HTML5.
