@@ -1,23 +1,23 @@
-# Dia-dos-Namorados- 
-
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nosso Amor 💖</title>
   <style>
-  body {
-    background: linear-gradient(to bottom, #ffb6c1, #ffc0cb);
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    color: #000; 
-  }
-</style>
+    body {
+      background: #ffd6e9 url('https://i.imgur.com/xaZZa1g.png') repeat;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      color: #000;
+    }
+
     h1 {
       margin-top: 20px;
       font-size: 2em;
-      color: #fff;
+      color: #000;
     }
+
     .fotos {
       display: flex;
       justify-content: center;
@@ -25,27 +25,34 @@
       flex-wrap: wrap;
       margin: 20px 0;
     }
+
     .fotos img {
-  max-width: 220px;
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
+      max-width: 220px;
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
     .contador {
       font-size: 1.5em;
       margin-top: 20px;
-      color: #fff;
+      color: #000;
     }
+
     iframe {
       margin-top: 20px;
       border: none;
+    }
+
+    audio {
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <audio controls autoplay loop style="display: block; margin: 20px auto;">
-    <source src="Christina Perri - A Thousand Years [Official Music Video].mp3" type="audio/mpeg">
+    <source src="a-thousand-years.mp3" type="audio/mpeg">
     Seu navegador não suporta áudio HTML5.
   </audio>
 
@@ -61,7 +68,7 @@
     <p>Estamos juntos há:</p>
     <div id="tempo"></div>
   </div>
-  
+
   <script>
     const inicio = new Date("2022-04-22T19:00:00");
     function atualizarContador() {
