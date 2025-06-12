@@ -56,9 +56,10 @@
     <div id="tempo"></div>
   </div>
 
-  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
-    src="https://www.youtube.com/embed/lp-EO5I60KA?autoplay=1&loop=1&playlist=lp-EO5I60KA">
-  </iframe>
+  <audio controls autoplay loop>
+  <source src="a-thousand-years.mp3" type="audio/mpeg">
+  Seu navegador não suporta áudio HTML5.
+</audio>
 
   <script>
     const inicio = new Date("2022-04-22T19:00:00");
