@@ -26,10 +26,12 @@
       margin: 20px 0;
     }
     .fotos img {
-      max-width: 300px;
-      border-radius: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    }
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
     .contador {
       font-size: 1.5em;
       margin-top: 20px;
