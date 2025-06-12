@@ -43,6 +43,9 @@
     }
   </style>
 </head>
+  <audio autoplay loop hidden>
+  <source src="a-thousand-years.mp3" type="audio/mpeg">
+</audio>
 <body>
   <h1>💘 Feliz Dia dos Namorados 💘</h1>
   <div class="fotos">
@@ -56,8 +59,9 @@
     <div id="tempo"></div>
   </div>
 
-<audio autoplay loop hidden>
+<audio controls autoplay loop>
   <source src="a-thousand-years.mp3" type="audio/mpeg">
+  Seu navegador não suporta áudio HTML5.
 </audio>
 
   <script>
