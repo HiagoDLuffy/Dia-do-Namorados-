@@ -12,7 +12,7 @@
   background-size: cover; /* para preencher a tela */
   font-family: 'Arial', sans-serif;
   text-align: center;
-  color: #fff;
+  color: #000;
 }
     h1 {
       margin-top: 20px;
@@ -58,7 +58,6 @@
   <div class="contador">
     <p>Estamos juntos há:</p>
     <div id="tempo"></div>
-  </div>
   </div>
   
   <script>
